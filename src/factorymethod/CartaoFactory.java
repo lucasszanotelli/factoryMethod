@@ -8,11 +8,10 @@ package factorymethod;
  *
  * @author 2024122760121
  */
-public class CartaoFactory extends PagamentoFactory{
+public class CartaoFactory implements PagamentoFactory {
 
     @Override
     public Pagamento criarPagamento() {
         return new PagCartao();
     }
-    
 }

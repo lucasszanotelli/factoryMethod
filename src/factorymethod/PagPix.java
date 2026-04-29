@@ -8,11 +8,10 @@ package factorymethod;
  *
  * @author 2024122760121
  */
-public class PagPix extends Pagamento {
+public class PagPix implements Pagamento {
 
     @Override
     public void processarPagamento() {
         System.out.println("Pagamento via Pix");
     }
-    
 }

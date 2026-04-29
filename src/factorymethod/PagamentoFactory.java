@@ -4,10 +4,6 @@
  */
 package factorymethod;
 
-/**
- *
- * @author 2024122760121
- */
-public abstract class PagamentoFactory {
-    public abstract Pagamento criarPagamento();   
+public interface PagamentoFactory {
+    Pagamento criarPagamento();
 }

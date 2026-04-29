@@ -8,7 +8,6 @@ package factorymethod;
  *
  * @author 2024122760121
  */
-public abstract class Pagamento {
-    public abstract void processarPagamento();
-    
+public interface Pagamento {
+    void processarPagamento();
 }
